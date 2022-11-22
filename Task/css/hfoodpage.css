@@ -1,0 +1,195 @@
+
+/* ----------------------------------------Site Statr----------------------SIte Start------------------------------------------------------------------------------------------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+  /* background-image: url(/sample/img/earth_3-1920x1080.jpg); */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+ 
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%,rgb(0, 0, 0),rgb(33, 0, 122), rgb(141, 0, 0) 90.5%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+.nave{
+  background-color: black;
+  /* border-bottom: 1px solid grey; */
+  box-shadow: 2px 2px 4px black;
+}
+
+.logoimg{
+width: 60px;
+height: 50px;
+/* filter: drop-shadow(2px 2px 5px red); */
+
+}
+
+.nav-link{
+
+  font-weight: bold; 
+  font-family: 'Montserrat', sans-serif;
+  margin: 8px;
+
+}
+
+.container{
+  margin-top: 90px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+} 
+  
+/* ----------------Card-Controls--------------Card-Controls------------Card-Controls--------------------- */
+
+
+
+
+
+
+.cardcontainer{
+  margin-top: 100px;
+
+
+}
+
+
+/* .card-body{
+position: relative;
+bottom: 10px;
+
+
+} */
+
+
+.cardbody1{
+  background:radial-gradient(circle at 10% 20%, rgb(0, 172, 211) 0%,rgb(0, 0, 0), rgb(66, 0, 0) 90.5%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
+  color: white;
+
+  /* margin-top: 200px; */
+
+  
+}
+
+.cardbody2{
+  background:radial-gradient(circle at 10% 20%, rgb(100, 0, 0) 0%,rgb(0, 0, 0), rgb(136, 109, 0) 90.5%); 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
+  color: white;
+
+  
+}
+
+.cardbody3{
+  background:radial-gradient(circle at 10% 20%, rgb(0, 104, 36) 0%,rgb(0, 0, 0), rgb(44, 0, 68) 95.5%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
+  color: white;
+  
+}
+.cardimg1{
+  filter: drop-shadow(0px 5px 10px rgb(0, 178, 218));
+  /* position: relative; */
+  /* bottom: 110px; */
+
+}
+.cardimg2{
+  filter: drop-shadow(0px 5px 10px rgb(210, 0, 0));
+  /* position: relative;
+  bottom: 150px; */
+  /* margin-top: px; */
+}
+.cardimg3{
+  filter: drop-shadow(0px 5px 10px rgb(0, 209, 63));
+  /* position: relative;
+  bottom: 150px; */
+  margin-top: 100px;
+}
+
+.cardimg4{
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+  
+  /* margin-left: 250px; */
+}
+
+
+.cardbody1:hover{
+  transform: scale(1.1);
+  z-index: 2;
+  transition: all 0.6s ease;
+  box-shadow: rgba(0, 179, 255, 0.871) 0px 5px 20px;
+}
+.cardbody2:hover{
+  transform: scale(1.1);
+  z-index: 2;
+  transition: all 0.6s ease;
+  box-shadow: rgba(245, 200, 0, 0.897) 0px 5px 20px;
+}
+.cardbody3:hover{
+  /* margin-top: 30px; */
+  transform: scale(1.1);
+  z-index: 2;
+  transition: all 0.6s ease;
+  box-shadow: rgba(0, 236, 71, 0.793) 0px 5px 20px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+.fruimg1{
+  filter: drop-shadow(0px 10px 10px rgb(255, 251, 11));
+}
+.fruimg2{
+  filter: drop-shadow(0px 15px 10px rgb(255, 109, 109));
+}
+.fruimg3{
+  filter: drop-shadow(0px 10px 10px rgb(255, 136, 0));
+}
+.fruimg4{
+  filter: drop-shadow(0px 10px 10px rgb(255, 182, 182));
+}
+
+/* ---------------------------------------------------------------------------- */
+
+
+.copy{
+  text-decoration: none;
+ background-color: rgb(10, 10, 10);
+
+
+}
+
+
+
+.nav-link:hover{
+  color: brown;
+  filter: drop-shadow(2px 2px 10px red );
+  transition: all 0.3s ease;
+}
+
+.logoimg:hover{
+  /* width: 200px;
+  height: 40px; */
+  filter: drop-shadow(2px 2px 5px rgb(0, 255, 42));
+  transition: all 0.3s ease;
+  
+  }
+
+
+
+  @media (max-width:576px){
+    #cardings{
+      margin-left: 90px;
+      width: 300px;
+      
+    }
+
+}

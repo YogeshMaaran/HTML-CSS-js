@@ -1,0 +1,94 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Staatliches&display=swap');
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../images/colors\ b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family:'Staatliches', cursive;
+    
+}
+
+
+.container{
+    width: 600px;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    color:rgba(255, 255, 255, 0.714);
+   
+}
+
+.text-center{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 237, 43);
+    text-shadow: 3px 5px 5px rgb(0, 0, 0);
+}
+
+
+.form-control{
+    
+    background-color: rgba(202, 201, 201, 0.1);
+    border: none;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+
+
+}
+
+
+
+.btn.btn-danger{
+
+    width: 100px;
+    padding: 8px;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    box-shadow: 5px 5px 8px black;
+    text-shadow: 1px 1px 5px black;
+    background-color: crimson;
+
+}
+
+
+.form-control:focus{
+    background-color: rgb(170, 170, 170);
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    border: none;
+    box-shadow: none;
+    color: black;
+    font-weight: bold;
+    animation: 0.3s ease-in;
+}
+
+.form-control:hover{
+    background-color: rgba(224, 224, 224, 0.951);
+    transition: all 0.7s ease; 
+}
+
+.form-control:active{
+    background-color: rgb(0, 24, 129);
+}
+
+
+.btn.btn-danger:hover{
+
+    background-color: rgb(8, 138, 88);
+    filter: drop-shadow(5px 5px 30px rgb(8, 138, 88));
+    transition: all 0.5s ease; 
+    
+}
+
